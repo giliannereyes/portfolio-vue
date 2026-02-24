@@ -66,6 +66,15 @@ export const portfolio = {
   ],
   projects: [
     {
+      title: 'ResumeAI',
+      description:
+        'An AI wrapper configured for resume analysis and ATS scoring, built with Vue frontend, Python (FastAPI) backend, and Ollama for local AI processing.',
+      tech: ['Vue', 'Python', 'FastAPI', 'Ollama'],
+      github: 'https://github.com/giliannereyes/resume-ai',
+      featured: true,
+      order: 0,
+    },
+    {
       title: 'Image to Puzzle',
       description:
         'A Vue-based web app that transforms uploaded images into a puzzle. Users can customize difficulty, rearrange tiles with drag-and-drop, and solve dynamically generated puzzles directly in the browser.',
@@ -73,8 +82,8 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/image-to-puzzle',
       live: 'https://giliannereyes.github.io/image-to-puzzle/',
       stars: 477,
-      featured: true,
-      order: 0,
+      featured: false,
+      order: 1,
     },
     {
       title: 'Personal Portfolio',
@@ -83,8 +92,7 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/portfolio-vue',
       live: 'giliannereyes.com',
       featured: false,
-      order: 1
-
+      order: 2,
     },
     {
       title: 'Pomodoro Timer',
@@ -94,7 +102,7 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/pomodoro-vue',
       live: 'https://giliannereyes.github.io/pomodoro-vue/',
       featured: false,
-      order: 2,
+      order: 3,
     },
     {
       title: 'Ladders Game & Monopoly',
@@ -103,7 +111,7 @@ export const portfolio = {
       tech: ['Java'],
       github: 'https://github.com/giliannereyes/idatt2003-portfolio-2025-group11',
       featured: false,
-      order: 3,
+      order: 4,
     }
   ],
 }
