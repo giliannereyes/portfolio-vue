@@ -78,7 +78,7 @@ export const portfolio = {
       title: 'Image to Puzzle',
       description:
         'A Vue-based web app that transforms uploaded images into a puzzle. Users can customize difficulty, rearrange tiles with drag-and-drop, and solve dynamically generated puzzles directly in the browser.',
-      tech: ['Vue', 'JavaScript', 'HTML', 'CSS'],
+      tech: ['Vue'],
       github: 'https://github.com/giliannereyes/image-to-puzzle',
       live: 'https://giliannereyes.github.io/image-to-puzzle/',
       stars: 477,
@@ -112,6 +112,15 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/idatt2003-portfolio-2025-group11',
       featured: false,
       order: 4,
+    },
+    {
+      title: 'Calculator',
+      description:
+        'A web-based calculator application built with Vue 3 and TypeScript, featuring user authentication and calculation history persistence. The frontend connects to a Spring Boot REST API backend.',
+      tech: ['Vue', 'Spring Boot'],
+      github: 'https://github.com/giliannereyes/calculator-vue-frontend',
+      featured: false,
+      order: 5,
     }
   ],
 }
