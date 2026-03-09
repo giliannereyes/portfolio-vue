@@ -75,6 +75,16 @@ export const portfolio = {
       order: 0,
     },
     {
+      title: 'CineMap',
+      description:
+        'A Vue 3 and TypeScript movie memory tracker built with Vue and Supabase, featuring logging, dashboard analytics, and interactive map-based history with OpenStreetMap and OpenGlobus.',
+      tech: ['Vue 3', 'TypeScript', 'Supabase'],
+      github: 'https://github.com/giliannereyes/cinemap',
+      live: 'https://cinemap-two.vercel.app/',
+      featured: true,
+      order: 1,
+    },
+    {
       title: 'Image to Puzzle',
       description:
         'A Vue-based web app that transforms uploaded images into a puzzle. Users can customize difficulty, rearrange tiles with drag-and-drop, and solve dynamically generated puzzles directly in the browser.',
@@ -83,7 +93,7 @@ export const portfolio = {
       live: 'https://giliannereyes.github.io/image-to-puzzle/',
       stars: 477,
       featured: false,
-      order: 1,
+      order: 2,
     },
     {
       title: 'Personal Portfolio',
@@ -92,7 +102,7 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/portfolio-vue',
       live: 'giliannereyes.com',
       featured: false,
-      order: 2,
+      order: 3,
     },
     {
       title: 'Pomodoro Timer',
@@ -102,7 +112,7 @@ export const portfolio = {
       github: 'https://github.com/giliannereyes/pomodoro-vue',
       live: 'https://giliannereyes.github.io/pomodoro-vue/',
       featured: false,
-      order: 3,
+      order: 4,
     },
     {
       title: 'Ladders Game & Monopoly',
@@ -111,7 +121,7 @@ export const portfolio = {
       tech: ['Java'],
       github: 'https://github.com/giliannereyes/idatt2003-portfolio-2025-group11',
       featured: false,
-      order: 4,
+      order: 5,
     },
     {
       title: 'Calculator',
@@ -120,7 +130,7 @@ export const portfolio = {
       tech: ['Vue', 'Spring Boot'],
       github: 'https://github.com/giliannereyes/calculator-vue-frontend',
       featured: false,
-      order: 5,
+      order: 6,
     }
   ],
 }
