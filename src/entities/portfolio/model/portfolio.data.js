@@ -66,22 +66,30 @@ export const portfolio = {
   ],
   projects: [
     {
+      title: 'Markdown Editor',
+      description:
+        'A browser-based markdown editor with live preview and editing tools.',
+      tech: ['vue', 'supabase', 'Markdown'],
+      github: 'https://github.com/giliannereyes/markdown-editor',
+      featured: true,
+      order: -1,
+    },
+    {
       title: 'ResumeAI',
       description:
         'An AI wrapper configured for resume analysis and ATS scoring, built with Vue frontend, Python (FastAPI) backend, and Ollama for local AI processing.',
-      tech: ['Vue', 'Python', 'FastAPI', 'Ollama'],
+      tech: ['Vue', 'FastAPI', 'Ollama'],
       github: 'https://github.com/giliannereyes/resume-ai',
-      featured: true,
+      featured: false,
       order: 0,
     },
     {
-      title: 'CineMap',
-      description:
-        'A Vue 3 and TypeScript movie memory tracker built with Vue and Supabase, featuring logging, dashboard analytics, and interactive map-based history with OpenStreetMap and OpenGlobus.',
-      tech: ['Vue 3', 'TypeScript', 'Supabase'],
-      github: 'https://github.com/giliannereyes/cinemap',
-      live: 'https://cinemap-two.vercel.app/',
-      featured: true,
+      title: 'Personal Portfolio',
+      description: 'A personal portfolio created with Vue.',
+      tech: ['Vue'],
+      github: 'https://github.com/giliannereyes/portfolio-vue',
+      live: 'giliannereyes.com',
+      featured: false,
       order: 1,
     },
     {
@@ -96,11 +104,12 @@ export const portfolio = {
       order: 2,
     },
     {
-      title: 'Personal Portfolio',
-      description: 'A personal portfolio created with Vue.',
-      tech: ['Vue'],
-      github: 'https://github.com/giliannereyes/portfolio-vue',
-      live: 'giliannereyes.com',
+      title: 'CineMap',
+      description:
+        'A Vue + TypeScript movie tracker with Supabase backend, analytics dashboards, and interactive map history',
+      tech: ['Vue', 'TypeScript', 'Supabase'],
+      github: 'https://github.com/giliannereyes/cinemap',
+      live: 'https://cinemap-two.vercel.app/',
       featured: false,
       order: 3,
     },
