@@ -12,7 +12,7 @@ export const portfolio = {
     email: 'mailto:giliannekatereyes@yahoo.com',
     github: 'https://github.com/giliannereyes',
     linkedin: 'https://www.linkedin.com/in/giliannereyes/',
-    cv: '/resume_eng.pdf',
+    cv: '/Resume.pdf',
     source: 'https://github.com/giliannereyes/portfolio-vue',
   },
   navLinks: [
@@ -38,6 +38,13 @@ export const portfolio = {
       summary:
         'Supporting programming and mathematics courses through student guidance, problem-solving, and assignment feedback.',
     },
+    {
+      period: '2026',
+      role: 'Software Development Workshop',
+      company: 'Telenor Blå Sone',
+      summary:
+        'Participated in a practical software development case focused on developer workflows, collaboration, and structured problem-solving.',
+    }
   ],
   skills: [
     'Java',
