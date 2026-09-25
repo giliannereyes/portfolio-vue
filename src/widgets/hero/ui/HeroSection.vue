@@ -6,7 +6,7 @@ const lastName = 'reyes'.split('')
 </script>
 
 <template>
-  <header class="header fade-in">
+  <header class="header fade-in hero-enter">
     <div class="content-wrap hero-grid">
       <div class="hero-content">
         <div class="hero-label">{{ portfolio.meta.label }}</div>
@@ -16,7 +16,7 @@ const lastName = 'reyes'.split('')
               v-for="(char, index) in firstName"
               :key="`first-${index}`"
               class="name-char"
-              :style="{ animationDelay: `${index * 0.06}s` }"
+              :style="{ animationDelay: `${index * 0.1}s` }"
               >{{ char }}</span
             >
           </span>
@@ -25,7 +25,7 @@ const lastName = 'reyes'.split('')
               v-for="(char, index) in lastName"
               :key="`last-${index}`"
               class="name-char"
-              :style="{ animationDelay: `${(index + firstName.length) * 0.06}s` }"
+              :style="{ animationDelay: `${(index + firstName.length) * 0.1}s` }"
               >{{ char }}</span
             >
           </span>
@@ -96,6 +96,10 @@ const lastName = 'reyes'.split('')
   min-width: 0;
 }
 
+.hero-enter {
+  animation-duration: 1.1s;
+}
+
 .hero-label {
   font-family: var(--font-mono);
   font-size: var(--font-size-xs);
@@ -129,7 +133,7 @@ const lastName = 'reyes'.split('')
   display: inline-block;
   margin-right: 0.01em;
   opacity: 0;
-  animation: fadeIn 0.5s ease forwards;
+  animation: fadeIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .title {

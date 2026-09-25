@@ -12,7 +12,7 @@ export const portfolio = {
     email: 'mailto:giliannekatereyes@yahoo.com',
     github: 'https://github.com/giliannereyes',
     linkedin: 'https://www.linkedin.com/in/giliannereyes/',
-    cv: '/resume_eng.pdf',
+    cv: '/Resume.pdf',
     source: 'https://github.com/giliannereyes/portfolio-vue',
   },
   navLinks: [
@@ -38,6 +38,13 @@ export const portfolio = {
       summary:
         'Supporting programming and mathematics courses through student guidance, problem-solving, and assignment feedback.',
     },
+    {
+      period: '2026',
+      role: 'Software Development Workshop',
+      company: 'Telenor Blå Sone',
+      summary:
+        'Participated in a practical software development case focused on developer workflows, collaboration, and structured problem-solving.',
+    }
   ],
   skills: [
     'Java',
@@ -64,33 +71,54 @@ export const portfolio = {
     'Vercel',
     'Wireshark',
   ],
+  // Project descriptions: max 200 characters to keep card heights consistent.
   projects: [
     {
-      title: 'Markdown Editor',
+      title: 'Internal Control System',
       description:
-        'A browser-based markdown editor with live preview and editing tools.',
-      tech: ['vue', 'supabase', 'Markdown'],
-      github: 'https://github.com/giliannereyes/markdown-editor',
+        'A full-stack system for managing internal controls, organizational processes, and compliance-related work, designed to support clear oversight, consistent workflows, and accountability.',
+      tech: ['Vue', 'Spring Boot', 'H2'],
+      github: 'https://github.com/giliannereyes/idatt2105-internal-control-system',
       featured: true,
       order: -1,
     },
     {
-      title: 'ResumeAI',
+      title: 'CRDT',
       description:
-        'An AI wrapper configured for resume analysis and ATS scoring, built with Vue frontend, Python (FastAPI) backend, and Ollama for local AI processing.',
-      tech: ['Vue', 'FastAPI', 'Ollama'],
-      github: 'https://github.com/giliannereyes/resume-ai',
+        'A Python CRDT library with a peer-to-peer WebSockets demo that shows conflict-free state replication, eventual consistency, and convergence across independently connected distributed replicas.',
+      tech: ['Python', 'WebSockets', 'Hypothesis'],
+      github: 'https://github.com/giliannereyes/crdt',
       featured: false,
-      order: 0,
+      order: 1,
+    },
+    {
+      title: 'Markdown Editor',
+      description:
+        'A browser-based Markdown editor with live preview, focused editing tools, and an intuitive workspace for drafting, formatting, and reviewing Markdown content in real time.',
+      tech: ['vue', 'supabase', 'Markdown'],
+      github: 'https://github.com/giliannereyes/markdown-editor',
+      featured: false,
+      order: 2,
     },
     {
       title: 'Personal Portfolio',
-      description: 'A personal portfolio created with Vue.',
+      description:
+        'A responsive personal portfolio built with Vue, presenting selected projects, technical skills, experience, and contact links in a polished, accessible single-page experience.',
       tech: ['Vue'],
       github: 'https://github.com/giliannereyes/portfolio-vue',
       live: 'giliannereyes.com',
       featured: false,
-      order: 1,
+      order: 3,
+    },
+    {
+      title: 'Pomodoro Timer',
+      description:
+        'A Vue-based Pomodoro timer that lets users configure work and break durations, move through focus cycles, and use a simple interface to build consistent study habits.',
+      tech: ['Vue'],
+      github: 'https://github.com/giliannereyes/pomodoro-vue',
+      live: 'https://giliannereyes.github.io/pomodoro-vue/',
+      featured: false,
+      order: 4,
     },
     {
       title: 'Image to Puzzle',
@@ -101,36 +129,16 @@ export const portfolio = {
       live: 'https://giliannereyes.github.io/image-to-puzzle/',
       stars: 477,
       featured: false,
-      order: 2,
-    },
-    {
-      title: 'CineMap',
-      description:
-        'A Vue + TypeScript movie tracker with Supabase backend, analytics dashboards, and interactive map history',
-      tech: ['Vue', 'TypeScript', 'Supabase'],
-      github: 'https://github.com/giliannereyes/cinemap',
-      live: 'https://cinemap-two.vercel.app/',
-      featured: false,
-      order: 3,
-    },
-    {
-      title: 'Pomodoro Timer',
-      description:
-        'A Vue-based Pomodoro timer with customizable work and break sessions.',
-      tech: ['Vue'],
-      github: 'https://github.com/giliannereyes/pomodoro-vue',
-      live: 'https://giliannereyes.github.io/pomodoro-vue/',
-      featured: false,
-      order: 4,
+      order: 5,
     },
     {
       title: 'Ladders Game & Monopoly',
       description:
-        'A board game application built with JavaFX, supporting customizable gameplay and file-based persistence',
+        'A JavaFX board-game application featuring Snakes and Ladders and Monopoly-inspired gameplay, with customizable rules, turn-based interaction, and file-based persistence.',
       tech: ['Java'],
       github: 'https://github.com/giliannereyes/idatt2003-portfolio-2025-group11',
       featured: false,
-      order: 5,
+      order: 6,
     },
     {
       title: 'Calculator',
@@ -139,7 +147,26 @@ export const portfolio = {
       tech: ['Vue', 'Spring Boot'],
       github: 'https://github.com/giliannereyes/calculator-vue-frontend',
       featured: false,
-      order: 6,
+      order: 7,
+    },
+    {
+      title: 'CineMap',
+      description:
+        'A Vue and TypeScript movie-tracking app backed by Supabase, with analytics dashboards and an interactive map for exploring and revisiting viewing history.',
+      tech: ['Vue', 'TypeScript', 'Supabase'],
+      github: 'https://github.com/giliannereyes/cinemap',
+      live: 'https://cinemap-two.vercel.app/',
+      featured: false,
+      order: 8,
+    },
+    {
+      title: 'ResumeAI',
+      description:
+        'An AI-powered resume-analysis tool with ATS scoring, a Vue frontend, a FastAPI backend, and Ollama-based local AI processing for private, practical feedback.',
+      tech: ['Vue', 'FastAPI', 'Ollama'],
+      github: 'https://github.com/giliannereyes/resume-ai',
+      featured: false,
+      order: 9,
     }
   ],
 }
